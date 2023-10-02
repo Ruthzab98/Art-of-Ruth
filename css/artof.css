@@ -123,7 +123,7 @@ footer {
     transition: opacity 0.3s;
     font-family: 'PT Serif', serif;
 
- }
+}
 
 .shop-button {
     background-color: #fff;
@@ -140,4 +140,38 @@ footer {
 
 .imagen-slide:hover img {
     transform: scale(1.05);
+}
+
+
+/* SHOP */
+.textshop{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+/* Estilo para el contenedor principal */
+.image-container {
+    display: flex;
+    max-width: 600px;
+    /* Puedes ajustar el ancho máximo según tus necesidades */
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+/* Estilo para las imágenes */
+.image {
+    width: auto;
+    /* Ajusta el ancho de las imágenes según tus necesidades */
+    max-width: 100%;
+    /* Asegura que las imágenes no superen el ancho del contenedor */
+    height: auto;
+    /* Para mantener la proporción de aspecto de las imágenes */
+}
+
+/* Espacio interno entre las imágenes */
+.image+.image {
+    margin-left: 30px;
+    /* Espacio horizontal entre las imágenes */
 }
