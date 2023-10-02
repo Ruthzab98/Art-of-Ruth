@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruth's Art</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="css/artof.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+
+    <nav>
+        <ul class="holder">
+            <li><a class="activo" href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="sobremi.html">Sobre Mi</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="logo">
+        <img src="imagenes/logo.png" alt="">
+    </header>
+
+
+    <main>
+        <div class="textohome">
+            <h2>El arte está en su mejor momento</h2>
+            <p>Inspirado en todo lo que podemos sentir</p>
+        </div>
+
+        <div class="carrusel-container">
+            <div class="carrusel">
+                <div class="imagen-slide">
+                    <img src="imagenes/home/1.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/2.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/3.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/4.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/5.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/6.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/7.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/8.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+                <div class="imagen-slide">
+                    <img src="imagenes/home/9.jpg" alt="Imagen 1">
+                    <div class="overlay">
+                        <button class="shop-button">SHOP</button>
+                    </div>
+                </div>
+
+                <!-- Agrega más imágenes según sea necesario -->
+            </div>
+        </div>
+
+
+
+
+
+    </main>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.carrusel').slick({
+                slidesToShow: 3, // Muestra 3 imágenes por página
+                slidesToScroll: 3, // Desplaza 3 imágenes por vez
+                dots: true, // Muestra indicadores de puntos
+                autoplay: true, // Activa la reproducción automática
+                autoplaySpeed: 3000, // Velocidad de cambio de imagen en milisegundos (ejemplo: 3000ms = 3 segundos)
+            });
+        });
+    </script>
+
+
+    <footer>
+        <p>Diseñado por Ruth Zabaleta -&copy;año</p>
+    </footer>
+
+</body>
+
+</html>
