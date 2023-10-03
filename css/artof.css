@@ -1,5 +1,6 @@
 /*font-family: 'Bree Serif', serif;
-font-family: 'PT Serif', serif;*/
+font-family: 'PT Serif', serif;
+*/
 
 
 @media screen and (max-width: 992px) {
@@ -15,7 +16,7 @@ font-family: 'PT Serif', serif;*/
 }
 
 body {
-    background-color: #fffaee;
+    background-color: #fff0ce;
 }
 
 header {
@@ -55,12 +56,73 @@ nav ul li a:hover {
 
 footer {
     clear: both;
-    color: #333;
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 100px 0;
-    margin-top: 20px;
+    padding: 0px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    background-color: #707070;
 
 }
+
+.subscription-container {
+    background-color: #ecdcb4;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.subscription-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subscription-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.subscription-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription-container input[type="email"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.subscription-container button {
+    background-color: #9a9a9a;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.subscription-container button:hover {
+    background-color: #963434;
+}
+
+/* Estilo para colocar el contenedor sobre el footer */
+.footer {
+    position: relative;
+}
+
+.subscription-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+}
+
 
 /*  HOME   */
 
@@ -147,8 +209,8 @@ footer {
 .textshop{
     text-align: center;
     padding-top: 20px;
-    font-size: 25px;
-    font-family: 'Bree Serif', serif;    
+    font-size: 27px;
+    font-family: 'PT Serif', serif;     
 }
 
 
@@ -177,4 +239,57 @@ footer {
     margin-left: 40%;
     /* Espacio horizontal entre las imágenes */
     margin-top: 40px;
+}
+
+/* SOBRE MI */
+
+.txtsobre{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 23px;
+    font-family: 'PT Serif', serif;  
+}
+
+.containimg{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+
+}
+
+.imgsm{
+    display: flex;
+    margin: 0 30px;
+    border-top: 4px solid black;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    background-color: #FFAB3C;
+}
+
+.imgsm2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 30px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+    background-color: #FFAB3C;
+}
+
+.imgsm p{
+    margin: auto;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-family: 'Playfair Display', serif;
+}
+
+.imgsm2 p{
+    margin: auto;
+    font-size: 17px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-family: 'Playfair Display', serif;
 }
