@@ -241,6 +241,48 @@ footer {
     margin-top: 40px;
 }
 
+.descripcion {
+    text-align: center;
+    margin-top: 10px; /* Espacio entre la imagen y la descripción */
+}
+
+.nombre {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 5px; /* Espacio entre el nombre y el precio */
+}
+
+.precio {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.comprar-button{
+    background-color: #963434;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* CARRITO 1*/
+
+.comprar1{
+margin-top: 100px;
+display: flex;
+padding-left: 100px;
+}
+
+.comprar1 h2{
+    padding-left: 50px;
+}
+
+.comprar1txt{
+    padding-left: 50px;
+}
+
+
 /* SOBRE MI */
 
 .txtsobre{
@@ -293,3 +335,64 @@ footer {
     padding-right: 10px;
     font-family: 'Playfair Display', serif;
 }
+
+/* CONTACTO */
+
+
+h1 {
+    color: #333;
+}
+
+.contenedor {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ecdcb4;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Evita que los elementos floten fuera del contenedor */
+}
+
+.imagen-contacto {
+    width: 40%; /* Ancho de la imagen */
+    float: left; /* Alinea la imagen a la izquierda */
+    margin-right: 20px; /* Espacio entre la imagen y el formulario */
+}
+
+.formulario-contacto {
+    width: 55%; /* Ancho del formulario */
+    float: left; /* Alinea el formulario a la derecha */
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #963434;
+}
+
